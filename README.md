@@ -1,5 +1,4 @@
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1424,7 +1423,6 @@
 
             .cart-item {
                 padding: 0.5rem;
-                height: 250PX;
                 flex-wrap: wrap;
             }
 
@@ -2853,3 +2851,4 @@ mobileNav.style.display = mobileNav.style.display === "block" ? "none" : "block"
         };
     </script>
 </body>
+
