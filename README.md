@@ -1,5 +1,4 @@
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1301,6 +1300,7 @@
 
             .nav-search input {
                 font-size: 1rem;
+               
             }
 
             .hero {
@@ -1422,7 +1422,8 @@
             }
 
             .cart-item {
-                padding: 1rem;
+                padding: 0.5rem;
+                height: 170PX;
                 flex-wrap: wrap;
             }
 
@@ -1447,7 +1448,6 @@
                 align-self: flex-start;
             }
 
-            /* Modal mobile */
             .order-modal-content {
                 padding: 2rem 1.5rem;
                 margin: 1rem;
@@ -1463,7 +1463,6 @@
                 width: 100%;
             }
 
-            /* Footer mobile */
             footer {
                 padding: 3rem 1rem 2rem;
             }
@@ -1471,10 +1470,17 @@
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.39);
 }
+#mobileMenuBtn{
+    margin-top: -200PX;
+}
             .footer-content {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
             }
+            /* input{
+                width: 100%;
+                margin-top: 50px;
+            } */
 
             .social-icons {
                 justify-content: center;
@@ -1482,7 +1488,6 @@
         }
 
         @media (max-width: 480px) {
-            /* Extra small screens */
             .hero h1 {
                 margin-top: 10rem;
             }
@@ -1551,7 +1556,6 @@
             }
         }
 
-        /* Large screens optimizations */
         @media (min-width: 1400px) {
             .hero h1 {
                 font-size: 5rem;
@@ -1566,7 +1570,6 @@
             }
         }
 
-        /* Performance optimizations */
         * {
             will-change: auto;
         }
@@ -1940,7 +1943,7 @@
             <div class="cart-total-price" id="cartTotal">
                 <i class="fas fa-coins"></i> Total: 0 FCFA
             </div>
-            <button class="checkout-btn" style="height: 40px;" id="checkoutBtn" onclick="openOrderModal()" disabled>
+            <button class="checkout-btn" style="height: 30px;" id="checkoutBtn" onclick="openOrderModal()" disabled>
                 <i class="fas fa-credit-card"></i> Commander Maintenant
             </button>
         </div>
